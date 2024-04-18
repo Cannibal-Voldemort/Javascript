@@ -7,5 +7,3 @@ function login (email,password,onSuccess,onError){
     }
 
     login('harsh','kumok', (str)=>{console.log(str)},(err)=>{console.log(err)});
-   
-    
