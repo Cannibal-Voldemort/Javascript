@@ -105,4 +105,3 @@ getStatus(
 
  console.log("the value of a is", arr);
  console.log("the type of a is", typeof a);
-
