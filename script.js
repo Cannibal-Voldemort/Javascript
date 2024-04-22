@@ -1,20 +1,20 @@
 // let c = 69;
 // let d = 97;
 // console.log( "c+d is",c+d );
-// const name=anuj;
+// const name= "anuj";
 
 // data types
-let a =23;
+let a = 23;
 // a =a+1;
 // console.log(a);
 
 // a=a+1;
 // console.log(a)
- a = Boolean(a);
- const age = 12
- const isAdult = age<18 ? "Child" : "Adult";
+a = Boolean(a);
+const age = 12;
+const isAdult = age < 18 ? "Child" : "Adult";
 
- /*
+/*
  switch (age) {
     case 12:
         console.log("nabalik")
@@ -84,24 +84,28 @@ function sum(num1,num2){
 */
 
 const user = {
-    name:"Harsh",
-    age: 22,
-    isLogin: false
-}
+  name: "Harsh",
+  age: 22,
+  isLogin: false,
+};
 
-const getStatus = (user,onSuccess,onError)=>{
-   if(user.isLogin) {
-    onSuccess("Secret token")
-   }else{
-    onError("Sign in error")
-   }
-}
+const getStatus = (user, onSuccess, onError) => {
+  if (user.isLogin) {
+    onSuccess("Secret token");
+  } else {
+    onError("Sign in error");
+  }
+};
 
 getStatus(
-    user,  
-    (token)=>{console.log(token)},
-    (errorMessage)=>{console.log(errorMessage)},
-)
+  user,
+  (token) => {
+    console.log(token);
+  },
+  (errorMessage) => {
+    console.log(errorMessage);
+  }
+);
 
- console.log("the value of a is", arr);
- console.log("the type of a is", typeof a);
+console.log("the value of a is", arr);
+console.log("the type of a is", typeof a);
