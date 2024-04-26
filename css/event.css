@@ -1,0 +1,7 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(201, 17, 146, 0.74);
+    color: rgb(31, 161, 118);
+    border: 1px solid black;
+}
